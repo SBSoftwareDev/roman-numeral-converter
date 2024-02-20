@@ -1,19 +1,3 @@
-/* 
-    This is Roman Numeral Translator! 
-
-    Answers to questions you may have:
-
-    1) No, it doesn't work above 3,999.
-
-    That's it.  
-
-
-    Presently this simple translator abides classical rules,
-    meaning numbers 1-3999 and no negative numbers. "Modern" numeral 
-    notation uses overlines indicating a multiplication by 1000. 
-    This expands the number range from 1 to 3,999,999.
-*/
-
 function convertToRoman(num) {
 
     if(num > 3999) { return "Limit reached."; }
