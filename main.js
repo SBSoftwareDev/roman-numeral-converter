@@ -39,7 +39,7 @@ function convertToRoman(num) {
     return result.join('');
 }
 
-console.log(convertToRoman(7));
+console.log(convertToRoman(9));
 console.log(convertToRoman(426));
 console.log(convertToRoman(3999));
 console.log(convertToRoman(-72));
